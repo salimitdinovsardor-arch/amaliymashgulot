@@ -1,0 +1,31 @@
+{
+  "name": "eduhub-platform",
+  "version": "1.0.0",
+  "description": "EduHub - Complete Modern Educational Platform with JWT Authentication and MongoDB",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "server:dev": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "client:build": "cd frontend && npm run build",
+    "test:api": "node backend/run-suite.js",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "education",
+    "edtech",
+    "react",
+    "vite",
+    "express",
+    "mongodb",
+    "jwt",
+    "authentication"
+  ],
+  "author": "EduHub Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
